@@ -25,9 +25,9 @@
 .about_div{
     width: 100%;
     background-color: cadetblue;
-    height: 465px;
+    height: 100%;
     border-radius: 10px;
-    font-size: 50px;
+    font-size: 30px;
     box-shadow: 2px 6px 5px -4px rgb(87, 85, 85);
    
 }
@@ -52,12 +52,12 @@
    box-shadow: 2px 6px 5px -4px rgb(87, 85, 85);
    border-radius: 30px;
 }
-@media (max-width: 952px){
+/* @media (max-width: 952px){
     *{
         margin: 0;
     }
-}
-@media (max-width: 858px){
+} */
+@media (max-width: 500px){
     .about{
         width: 100%;
         margin-bottom: 20px;
@@ -66,10 +66,10 @@
     }
     .pic_div{
         width: 40%;
-       height:200px;
+       height:10px;
        box-sizing: border-box;
        border-radius: 20px;
-       margin-left: 50px;
+       margin-left: 20px;
        float: left;
         margin-top: 30px;
        box-shadow: 2px 6px 5px -4px rgb(87, 85, 85);
@@ -84,7 +84,7 @@
            background-color: cadetblue;
            height: 200px;
            border-radius: 10px;
-           font-size: 40px;
+           font-size: 30px;
        }
     
     

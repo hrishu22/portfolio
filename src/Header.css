@@ -8,7 +8,19 @@
 .avatar{
   top: 10px;
 }
-
+.bars{
+  color: white;
+  float: right;
+  display: none;
+  cursor: pointer;
+  
+}
+.check{
+  color: white;
+  float: right;
+  display: none;
+ 
+}
 body{
   font-family: montserrat;
 }
@@ -40,34 +52,29 @@ a.active,a:hover{
   transition: .5s;
   
 }
-.check{
-  font-size: 20px;
-  color: rgb(78, 122, 7);
-  float: right;
-  top: 0;
-  line-height: 10px;
-  margin-right: 40px;
-  cursor: pointer;
-  display: none;
 
-}
-#check{
-  display: none;
-}
+
 @media (max-width: 952px){
  
   nav ul li a{
     font-size: 16px;
   }
 }
-@media (max-width: 858px){
-  .check{
-    display: block;
-  }
+@media (max-width: 500px){
+.bars{
+  display: block;
+ 
+  font-size: 24px;
+}
+.bars:hover~ul{
+  left: 0;
+  
+}
+
   ul{
     position: fixed;
     width: 50%;
-    height: 60vh;
+    height: 57vh;
     background: #2c3e50;
     top: 70px;
     left: -50%;
@@ -86,8 +93,11 @@ a.active,a:hover{
     background: none;
     color: #0082e6;
   }
-  #check:checked ~ ul{
-    left: 0;
+  .check{
+    display: block;
   }
+ .check:checked~ul{
+   left:0;
+ }
 }
 

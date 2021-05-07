@@ -66,7 +66,7 @@
 .link:hover{
     background-color: none;
 }
-@media(max-width:858px){
+@media(max-width:500px){
     .cards{
         width: 150px;
         height: 300px;
